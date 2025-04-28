@@ -15,3 +15,6 @@ Route::get('/register', [UserRegister::class,'index'])->name('user.register');
 Route::post('/user/create', [UserRegister::class,'store'])->name('user.create');
 
 Route::post('/user/auth', [UserLogin::class,'login'])->name('user.auth');
+
+
+New World
