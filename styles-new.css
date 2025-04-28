@@ -1,0 +1,30 @@
+/* Core Variables and Base Styles */
+:root {
+  --cafe-light: #f5f0e6;
+  --cafe-medium: #d4b483;
+  --cafe-dark: #6b4f2e;
+  --cafe-accent: #a67c52;
+  --gray-100: #f7fafc;
+  --gray-200: #edf2f7;
+  --gray-400: #cbd5e0;
+  --gray-600: #718096;
+  --gray-800: #2d3748;
+  --indigo-200: #c3dafe;
+  --indigo-600: #5a67d8;
+  --indigo-800: #4c51bf;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--gray-100);
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
